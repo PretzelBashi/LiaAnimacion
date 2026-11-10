@@ -10,6 +10,12 @@
     <style>
       color_1 3 0 0 0 255 
     </style>
+    <style>
+      color_2 3 125 71 71 255 
+    </style>
+    <style>
+      color_3 3 54 41 36 255 
+    </style>
     </styles>
   <stylepages>
     <page>
@@ -17,12 +23,12 @@
         colors 
       </name>
       <indices>
-        0 1 
+        0 1 2 3 
       </indices>
       </page>
     </stylepages>
   <shortcuts>
-    -1 0 1 -1 -1 -1 -1 -1 -1 -1 
+    -1 0 1 2 3 -1 -1 -1 -1 -1 
   </shortcuts>
   
 </palette>
