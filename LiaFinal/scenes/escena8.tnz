@@ -1,4 +1,4 @@
-<tnz framecount="24" version="71.1">
+<tnz framecount="29" version="71.1">
   <generator>
     "OpenToonz 1.8"
   </generator>
@@ -421,11 +421,27 @@
         </path>
         
       </level>
+      <level id='9'>
+        S 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\S.tlv"
+        </path>
+        
+      </level>
+      <level id='10'>
+        T 
+        <info dpiType="image"/>
+        <path>
+          "+drawings\\T.tlv"
+        </path>
+        
+      </level>
       
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='1'/><level id='2'/><level id='3'/><level id='4'/><level id='8'/><level id='7'/><level id='5'/><level id='6'/>
+        <level id='9'/><level id='10'/><level id='3'/><level id='7'/><level id='8'/><level id='5'/><level id='4'/><level id='6'/><level id='1'/><level id='2'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -433,10 +449,10 @@
     </levelSet>
   <xsheet>
     <columns>
-      <levelColumn id='9'>
+      <levelColumn id='11'>
         
         <status>
-          0 
+          1 
         </status>
         <camerastand_opacity>
           77 
@@ -444,56 +460,6 @@
         <cells>
           <cell>
             0 12 <level id='1'/>"-"0 
-          </cell>
-          </cells>
-        <fx>
-          <Toonz_columnFx id='10'>
-            
-            <params>
-              </params>
-            <ports>
-              </ports>
-            <numberId>
-              0 
-            </numberId>
-            <name>
-              LevelColumn 
-            </name>
-            <fxId>
-              "" 
-            </fxId>
-            <opened>
-              0 
-            </opened>
-            
-          </Toonz_columnFx>
-          
-        </fx>
-        
-      </levelColumn>
-      <levelColumn id='11'>
-        
-        <status>
-          0 
-        </status>
-        <cells>
-          <cell>
-            0 7 <level id='8'/>0001 1 
-          </cell>
-          <cell>
-            7 2 <level id='8'/>0001 8 
-          </cell>
-          <cell>
-            9 3 <level id='8'/>0010 1 
-          </cell>
-          <cell>
-            12 7 <level id='8'/>0001 1 
-          </cell>
-          <cell>
-            19 2 <level id='8'/>0001 8 
-          </cell>
-          <cell>
-            21 3 <level id='8'/>0010 1 
           </cell>
           </cells>
         <fx>
@@ -528,22 +494,28 @@
         </status>
         <cells>
           <cell>
-            0 7 <level id='7'/>0001 1 
+            0 7 <level id='8'/>0001 1 
           </cell>
           <cell>
-            7 2 <level id='7'/>0001 9 
+            7 2 <level id='8'/>0001 8 
           </cell>
           <cell>
-            9 3 <level id='7'/>0011 1 
+            9 3 <level id='8'/>0010 1 
           </cell>
           <cell>
-            12 7 <level id='7'/>0001 1 
+            12 7 <level id='8'/>0001 1 
           </cell>
           <cell>
-            19 2 <level id='7'/>0001 9 
+            19 2 <level id='8'/>0001 8 
           </cell>
           <cell>
-            21 3 <level id='7'/>0011 1 
+            21 3 <level id='8'/>0010 1 
+          </cell>
+          <cell>
+            24 2 <level id='8'/>0001 12 
+          </cell>
+          <cell>
+            26 3 <level id='8'/>0014 1 
           </cell>
           </cells>
         <fx>
@@ -578,28 +550,25 @@
         </status>
         <cells>
           <cell>
-            0 4 <level id='6'/>0001 1 
+            0 7 <level id='7'/>0001 1 
           </cell>
           <cell>
-            4 3 <level id='6'/>0003 -1 
+            7 2 <level id='7'/>0001 9 
           </cell>
           <cell>
-            7 3 <level id='6'/>0005 1 
+            9 3 <level id='7'/>0011 1 
           </cell>
           <cell>
-            10 2 <level id='6'/>0006 -1 
+            12 7 <level id='7'/>0001 1 
           </cell>
           <cell>
-            12 4 <level id='6'/>0001 1 
+            19 2 <level id='7'/>0001 9 
           </cell>
           <cell>
-            16 3 <level id='6'/>0003 -1 
+            21 3 <level id='7'/>0011 1 
           </cell>
           <cell>
-            19 3 <level id='6'/>0005 1 
-          </cell>
-          <cell>
-            22 2 <level id='6'/>0006 -1 
+            24 1 <level id='7'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -634,10 +603,31 @@
         </status>
         <cells>
           <cell>
-            0 12 <level id='4'/>0001 1 
+            0 4 <level id='6'/>0001 1 
           </cell>
           <cell>
-            12 12 <level id='4'/>0001 1 
+            4 3 <level id='6'/>0003 -1 
+          </cell>
+          <cell>
+            7 3 <level id='6'/>0005 1 
+          </cell>
+          <cell>
+            10 2 <level id='6'/>0006 -1 
+          </cell>
+          <cell>
+            12 4 <level id='6'/>0001 1 
+          </cell>
+          <cell>
+            16 3 <level id='6'/>0003 -1 
+          </cell>
+          <cell>
+            19 3 <level id='6'/>0005 1 
+          </cell>
+          <cell>
+            22 2 <level id='6'/>0006 -1 
+          </cell>
+          <cell>
+            24 1 <level id='6'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -672,6 +662,47 @@
         </status>
         <cells>
           <cell>
+            0 12 <level id='4'/>0001 1 
+          </cell>
+          <cell>
+            12 12 <level id='4'/>0001 1 
+          </cell>
+          <cell>
+            24 1 <level id='4'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='20'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='21'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
             0 4 <level id='5'/>0001 1 
           </cell>
           <cell>
@@ -697,7 +728,89 @@
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='20'>
+          <Toonz_columnFx id='22'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='23'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 2 <level id='9'/>0001 1 
+          </cell>
+          <cell>
+            2 4 <level id='9'/>0002 0 
+          </cell>
+          <cell>
+            6 7 <level id='9'/>0001 0 
+          </cell>
+          <cell>
+            13 5 <level id='9'/>0002 0 
+          </cell>
+          <cell>
+            18 6 <level id='9'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='24'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <levelColumn id='25'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            0 24 <level id='10'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='26'>
             
             <params>
               </params>
@@ -1137,6 +1250,68 @@
           1.234e+09 5.678e+09 
         </nodePos>
         </pegbar>
+      <pegbar id="Col7">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col8">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
       <grid_dimension>
         1 
       </grid_dimension>
@@ -1144,13 +1319,19 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='14'/>
+          <Toonz_columnFx id='22'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='20'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='24'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='12'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='10'/>
+          <Toonz_columnFx id='14'/>
         </fxnode>
         <fxnode>
           <Toonz_columnFx id='16'/>
@@ -1159,11 +1340,11 @@
           <Toonz_columnFx id='18'/>
         </fxnode>
         <fxnode>
-          <Toonz_columnFx id='20'/>
+          <Toonz_columnFx id='26'/>
         </fxnode>
         </terminal>
       <xsheet>
-        <Toonz_xsheetFx id='21'>
+        <Toonz_xsheetFx id='27'>
           
           <params>
             </params>
@@ -1186,13 +1367,13 @@
         
       </xsheet>
       <output>
-        <Toonz_outputFx id='22'>
+        <Toonz_outputFx id='28'>
           
           <params>
             </params>
           <ports>
             <source>
-              <Toonz_xsheetFx id='21'/>
+              <Toonz_xsheetFx id='27'/>
             </source>
             </ports>
           <numberId>
@@ -1226,5 +1407,8 @@
     "| #6   09 nov. 26   12:20  PRETZEL     diego           |"
     "| #7   09 nov. 26   15:55  PRETZEL     diego           |"
     "| #8   10 nov. 26   04:40  DESKTOP-CQDDdiego           |"
+    "| #9   10 Nov 26   16:10                |"
+    "| #10  10 Nov 26   16:21                |"
+    "| #11  10 Nov 26   16:54                |"
   </history>
   </tnz>
